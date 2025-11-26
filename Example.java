@@ -1,4 +1,4 @@
-//DEPS 
+//DEPS https://github.com/maxandersen/jbang-filesystems
 import java.net.URI;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;

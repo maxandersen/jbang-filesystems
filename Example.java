@@ -1,4 +1,5 @@
-//DEPS https://github.com/maxandersen/jbang-filesystems
+//REPOS central,jitpack
+//DEPS com.github.maxandersen:jbang-filesystems:93db173dcc
 import java.net.URI;
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;

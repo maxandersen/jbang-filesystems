@@ -4,11 +4,11 @@ before_install:
 # the following installs the right tools and creates a mise.toml
 # you can skip these if you commit a mise.toml to the project.
   - ~/.local/bin/mise trust mise.toml
-  - ~/.local/bin/mise use java@11 maven@3.9
+  - ~/.local/bin/mise use java@11 gradle@8
 
 
 install:
 # you could technically just run mvn install directly
 # put just showing mise x as an option where you can
 # configure additional jdks.
-  - ~/.local/bin/mise x -- gradle@8 gradle publishToMavenLocal
+  - ~/.local/bin/mise x -- gradle publishToMavenLocal

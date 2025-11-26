@@ -19,7 +19,7 @@ class SimpleHttpClient implements HttpClient {
 
 	@Override
 	public String downloadString(String url) throws IOException {
-		System.out.println("Downloading string from URL: " + url);
+		//ntln("Downloading string from URL: " + url);
 		URL urlObj = new URL(url);
 		HttpURLConnection connection = (HttpURLConnection) urlObj.openConnection();
 		connection.setRequestMethod("GET");
